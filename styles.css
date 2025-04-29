@@ -353,9 +353,11 @@ body {
   }
 
   .color-swatch {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    flex-shrink: 0;
   }
   
